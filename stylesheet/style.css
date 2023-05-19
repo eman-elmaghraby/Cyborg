@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+:root{
+    --textColor:#585b5c;
+    --backgroundColor:#27292a;
+    --hoverColor:#e75e8d;
+    --slideColor:#1f2122;
+}
+body{
+    background-color: #1f2122;
+}
+@media screen and (max-width:786px) {
+ 
+    .imagenav{
+        opacity: 0 !important;
+       
+    }
+    .liLink2 {
+        background-color: transparent !important;
+        padding-right: 0px !important;
+        padding-left: 44px;
+        border-radius: 0;
+    }
+.navbar ul{
+    align-items: center;
+}
+.pageContent .row{
+    justify-content: center !important;
+}
+
+}
+
+/* start navbar */
+.searchDiv{
+    margin-left: 20px;
+}
+.search{
+    background-color: var(--backgroundColor);
+    border-radius: 10em;
+    border: none;
+}
+.search::placeholder{
+    position: absolute;
+    left: 60px;
+
+}
+.search:focus{
+    background-color:var(--backgroundColor);
+    color:var(--textColor);
+    outline-color: white;
+    box-shadow: 0 0 0 0.10rem white !important;
+    font-size: 14px;
+    padding: 0px 15px 0px 45px;
+    height: 3em;
+}
+.search:focus::placeholder{
+    margin-top: 10px;
+}
+form i{
+    top: 12px;
+    left: 36px;
+}
+.imagenav{
+    border-radius: 50%;
+    opacity: 1;
+}
+.liLink{
+color: var(--textColor);
+}
+.liLink:hover{
+    color: var(--hoverColor) !important;
+}
+.liLink2{
+    background-color: var(--backgroundColor);
+    border-radius: 36px;
+    padding-right: 14px;
+}
+.liLink2:hover{
+    background-color: var(--hoverColor);
+}
+.liLink3{
+    color: var(--textColor);
+}
+/* end navbar */
+
+/* start page Content */
+.pageContent{
+    background-color: var(--backgroundColor);
+    border-radius: 27px
+}
+
+/* start slide 1 */
+.slide1{
+    background-image: url('../images/banner-bg.jpg');
+   background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 23px;
+    padding: 80px 60px;
+    max-width: 100%;
+   
+}
+.textSlide1{
+    color: var(--hoverColor);
+}
+.btnSlide1{
+    background-color: var(--hoverColor);
+    border-radius: 18px;
+    width: 137px;
+    height: 43px;
+}
+/* end slide 1 */
+
+/* start slide 2 */
+.slide2{
+    border-radius: 35px;
+    padding: 30px;
+    background-color: var(--slideColor);
+}
+.pageContent ul{
+    list-style: none;
+}
+.popular{
+    background-color: var(--backgroundColor);
+    border-radius: 20px;
+}
+.imgPopular{
+    border-radius: 20px;
+}
+.fa-star{
+    color: yellow;
+}
+.fa-download{
+    color: var(--hoverColor);
+}
+.btnSlide2{
+    background-color: var(--hoverColor);
+    border-radius: 18px;
+    width: 176px;
+    height: 49px;
+    margin-top: -27px;
+}
+/* end slide 2 */
+
+/* start your gamin */
+.btSlide2{
+    border-radius: 30px;
+    border-color: var(--textColor);
+    width: 100%;
+    height: 48px;
+}
+.btSlide2:hover{
+    background-color: white;
+}
+hr{
+    color: var(--textColor);
+}
+.bSlide2{
+    background-color: var(--hoverColor);
+    border-radius: 18px;
+    width: 176px;
+    height: 49px;
+    margin-top: -128px;
+}
+/* end your gaming */
+/* end page Content */
+
+/* start copy write */
+.aCopy:hover{
+ color: var(--hoverColor);
+}
+/* end copy write */
